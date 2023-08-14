@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="heading">HI I AM <br> DARWIN CODERA</h1>
+            <button class="btn">
+                Hire me
+            </button>
+        </div>
+        <div class="home-sci">
+            <a href="https://www.facebook.com/drwncdr" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="mailto:darwinduacodera21@gmail.com" target="_blank"><i class='bx bxl-gmail' ></i></a>
+            <a href="https://www.linkedin.com/in/darwin-codera-5a6a16266/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 class="heading">ABOUT ME</h1>
+        <div id="pic">
+            <img src="image2.png" alt="">
+            <div id="intro">
+                <h2>Darwin Codera</h2>
+                <p>Im a fresh graduate. I love my to spend my free time on playing video games and bonding family
+                    and if their is enough time i watch and read about programming to refresh my past knowledge and
+                    also to learn new things. I am dedicated to my passion when it comes to improving my work and skills.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 class="heading">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="Project1.PNG" alt="">
+            <img src="Project3.PNG" alt="">
+            <img src="Project5.1.PNG" alt="">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="heading">SERVICES</h1>
+        <div class="row">
+           
+            <div class="box">
+                <img src="Ui.png" alt="">
+                <h1 class="heading">UI/UX <br> Design </h1>
+                <p>Creative web design and app interface using Html and Css</p>
+            </div>
+           
+            <div class="box">
+                <img src="WebApp.png" alt="">
+                <h1 class="heading">Web Development</h1>
+                <p>Web app Development using C#, Html and Css</p>
+            </div>
+
+            <div class="box">
+                <img src="unity.png" alt="">
+                <h1 class="heading">Game Development</h1>
+                <p>Creating game using C# and Unity</p>
+            </div>
+        </div>
+    
+    </section>
+
+    <section id="contact">
+        <h1 class="heading">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter You Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
